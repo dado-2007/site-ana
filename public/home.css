@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(320DEG, rgba(25, 4, 31, 0.9), lightsalmon);
+}
+.header1 {
+  width: 100vw;
+  height: 65px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;
+}
+li {
+  list-style: none;
+  padding: 15px;
+}
+a {
+  color: rgb(255, 240, 191);
+  text-decoration: none;
+  font-family: 'Kufam';
+  font-weight: normal;
+  font-size: 19px;
+  transition: 0.3s;
+}
+a:hover {
+  color: lightcyan;
+  letter-spacing: 2px;
+}
